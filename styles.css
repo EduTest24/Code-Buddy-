@@ -1,0 +1,53 @@
+body {
+  background-color: #f4f7f9;
+}
+
+.code-container {
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  padding: 15px;
+  white-space: pre-wrap;
+  font-family: monospace;
+  height: 300px;
+  overflow: auto;
+  color: #f8f8f2;
+}
+
+.sidebar {
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.copy-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#loader {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+#success-message,
+#error-message {
+  display: none;
+}
